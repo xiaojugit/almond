@@ -13,8 +13,8 @@ const Template = <T>(args: T) => ({
   template: '<e-button v-bind="args">Primary</e-button>',
 });
 
-export const Primary: any = Template.bind({});
-Primary.args = {
-  primary: true,
-  label: 'Button',
-};
+export const Primary = Template.bind({});
+// Primary.args = {
+//   primary: true,
+//   label: 'Button',
+// };

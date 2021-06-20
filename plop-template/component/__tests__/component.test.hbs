@@ -1,0 +1,9 @@
+import { mount } from '@vue/test-utils';
+import E{{properCase name}} from '../src/{{name}}.vue';
+
+describe('{{name}}.vue', () => {
+  test('test example', () => {
+    const example = mount(E{{properCase name}});
+    expect(example.html()).toContain('div');
+  });
+});

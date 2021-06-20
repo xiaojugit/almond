@@ -1,0 +1,16 @@
+import E{{properCase name}} from '..';
+
+export default {
+  title: 'Components/{{properCase name}}',
+  component: E{{properCase name}},
+};
+
+const Template = <T>(args: T) => ({
+  components: { E{{properCase name}} },
+  setup() {
+    return { args };
+  },
+  template: `<e-{{name}}></e-{{name}}>`,
+});
+
+export const example = Template.bind({});

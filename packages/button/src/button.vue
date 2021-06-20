@@ -1,13 +1,15 @@
 <template>
-  <button class="e-button"><slot></slot></button>
+  <button class="e-button">
+    <slot />
+  </button>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from 'vue'
 
 export default defineComponent({
   name: 'EButton',
-});
+})
 </script>
 
 <style lang="scss" scoped>
