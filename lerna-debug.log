@@ -1,0 +1,8 @@
+38 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin main
+38 error Connection closed by 13.229.188.59 port 22
+38 error fatal: Could not read from remote repository.
+38 error
+38 error Please make sure you have the correct access rights
+38 error and the repository exists.
+38 error     at makeError (/Users/ju/workspace/easterly/node_modules/execa/lib/error.js:60:11)
+38 error     at handlePromise (/Users/ju/workspace/easterly/node_modules/execa/index.js:118:26)
